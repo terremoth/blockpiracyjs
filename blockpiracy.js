@@ -23,7 +23,7 @@ BlockPiracy.blockRightClick = function() {
 BlockPiracy.blockPrintScreen = function() {
     window.onkeyup = function(evt) {
       if (evt.keyCode === 44) {
-        Create a "hidden" input
+        // Create a "hidden" input
         var aux = document.createElement("input");
         // Assign it the value of the specified element
         aux.setAttribute("value", "Can't printscreen");
